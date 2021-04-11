@@ -1,6 +1,6 @@
 ## Requisitos Funcionais
 
--[] O usuário poderá se cadastrar no sistema com o e-mail (username, nome, sobrenome, email);
+-[x] O usuário poderá se cadastrar no sistema com username, nome, sobrenome, email;
 -[] O usuário poderá manter itens à sua lista de estudo;
 -[] O usuário poderá lançar a data de início do estudo e a data final de estudo;
 -[] Os usuários poderão somente ver listas de estudo de outros usuários;
