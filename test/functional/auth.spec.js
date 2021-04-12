@@ -1,14 +1,14 @@
 const User = require("../../app/Models/User");
 
-const { test, trait, after } = use('Test/Suite')('Auth registration');
+const { test, trait, after } = use('Test/Suite')('Registration and Login');
 
 trait('Test/ApiClient');
 
 const user = use('App/Models/User');
 
-after(async () => {
-  await User.query().delete();
-});
+// after(async () => {
+//   await Database.truncate('users') // await User.query().delete();
+// });
 
 test('Registrar Usuário', async ({ client, assert }) => {
   const response = await client.post('api/v1/register').send({

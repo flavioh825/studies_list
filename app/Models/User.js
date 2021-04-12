@@ -44,8 +44,8 @@ class User extends Model {
     return this.hasMany('App/Models/Token')
   }
 
-  subjectsStudied() {
-    return this.hasMany('App/Models/StudiedSubject')
+  studies() {
+    return this.hasMany('App/Models/Study')
   }
 
   image() {

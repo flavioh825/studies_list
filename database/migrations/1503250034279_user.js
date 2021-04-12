@@ -13,6 +13,8 @@ class UserSchema extends Schema {
       table.string('lastname', 100).notNullable()
       table.string('password', 255).notNullable()
       table.string('profession', 150)
+      table.string('country', 100)
+      table.string('city', 100)
       table.timestamps()
     })
   }
